@@ -39,7 +39,7 @@
     }
 
     .profile-header img {
-      border-radius: 80%;
+      border-radius: 50%;
       width: 180px;
       height: 180px;
       margin-right: 30px;
@@ -182,10 +182,10 @@ font-weight: bold;
 
   <!-- Profile Header -->
   <div class="profile-header">
-    <img src="sol.jpeg" alt="Solmaz Seyed Monir">
+    <img src="solipic.jpeg" alt="Solmaz Seyed Monir">
     <div>
       <h1>Solmaz Seyed Monir</h1>
-      <p>PhD Student,  <a href="https://students.washington.edu/solmazsm/">University of Washington</a></p>
+      <p>PhD Student, University of Washington</p>
       
       <div class="profile-links">
         <a href="https://scholar.google.com/citations?user=OqOv6t8AAAAJ&hl=en"><i class="fab fa-google"></i></a>
@@ -216,20 +216,56 @@ font-weight: bold;
 </div>
 
 
- <div class="section">
+ <div class="section" >
   <div style="overflow: hidden;">
     <img src="vec.gif" alt="Vector Search Illustration" width="340" height="310"  class="img-fluid" style="float: left; margin-right: 20px; margin-bottom: 20px;">
     <div>
       <a href="https://arxiv.org/abs/2409.17383" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 24px; text-decoration: none;">
         VectorSearch: Enhancing Document Retrieval with Semantic Embeddings and Optimized Search
       </a>
-      <p>VectorSearch enhances document retrieval by leveraging advanced embeddings, multi-vector search operations, and indexing techniques to improve retrieval accuracy, particularly in large-scale tasks.</p>
+      <p><strong>VectorSearch </strong> enhances document retrieval by leveraging advanced embeddings, multi-vector search operations, and indexing techniques to improve retrieval accuracy, particularly in large-scale tasks.</p>
       <p style="text-align: left;">
-        <a href="https://arxiv.org/abs/2409.17383" target="_blank" style="color: #0056b3;">[paper] 2024</a>
+        <a href="https://arxiv.org/abs/2409.17383" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 24px;">[paper] 2024</a>
       </p>
     </div>
   </div>
 </div>
+
+
+  
+
+<div class="section">
+  <h2 style="font-size: 24px; font-weight: bold; color: #0056b3;">
+    NexusIndex: A Self-Optimizing Multimodal Framework for Fake News Detection with Dynamic Indexing and Retrieval
+  </h2>
+
+  <p><strong>NexusIndex</strong> is a self-optimizing multimodal framework that integrates multi-model embeddings, attention mechanisms, and a FAISSNexusIndex layer. It enables efficient fake news detection by combining dynamic vector indexing and real-time retrieval.</p>
+  <p style="font-size: 20px; color: #0056b3; font-weight: bold;">
+  Accepted at <a href="https://sites.google.com/view/mipr-2025/ieee-mipr?authuser=0" target="_blank" style="color: #0056b3; text-decoration: underline;">
+    IEEE MIPR 2025 (Multimedia Information Processing and Retrieval)
+  </a>
+</p>
+<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+  <div class="col-md-6 d-flex justify-content-center">
+    <img src="semantic_similarity_distribution.jpg" alt="Semantic Similarity Distribution" class="img-fluid" style="height: 250px; width: auto;">
+  </div>
+
+  <div class="col-md-6 d-flex justify-content-center">
+    <img src="ROC.jpg" alt="ROC Curve" class="img-fluid" style="height: 250px; width: auto;">
+  </div>
+</div>
+
+<p style="text-align: left;">
+  <a href="https://solmazsm.github.io/NexusIndex/" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 18px;">[Project Website]</a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/solmazsm/NexusIndex" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 18px;">[GitHub Code]</a>
+</p>
+
+<p style="text-align: left; margin-top: -10px;">
+  <a href="https://arxiv.org/abs/2410.18294" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 18px;">[Preprint – 2024]</a>
+</p>
+</div>
+
 
 <div class="section" >
   <img src="VecLSTM.jpg" alt="VecLSTM Research Diagram" class="img-fluid" style="max-width: 100%; height: auto; margin-bottom: 20px;">
@@ -250,7 +286,9 @@ font-weight: bold;
 </div>
 
 
-<div class="section"> <p> <img src="image_cache_optimization.gif" alt="Efficient Feature Extraction Illustration" width="340" height="310"  class="img-fluid" style="float: left; margin-right: 20px; margin-bottom: 20px;"> <a href="https://ieeexplore.ieee.org/abstract/document/10541352" target="_blank" style="color: #0056b3; font-weight: bold;  font-size: 24px;text-decoration: none;"> Efficient Feature Extraction for Image Analysis through Adaptive Caching in Vector Databases </a> </p> <p> This research  introduces a caching subsystem leveraging in-memory vector databases to enhance the efficiency of image feature extraction. Using advanced models like MobileNetV3 and ResNet50, the framework integrates batch insertion and parallel processing to optimize computational performance. </p> <p style="text-align: left;"> <a href="https://ieeexplore.ieee.org/abstract/document/10541352" target="_blank" style="color: #0056b3;">ICICT 2024</a> </p> </div>
+<div class="section"> <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+ <img src="image_cache_optimization.gif" alt="Efficient Feature Extraction Illustration" width="340" height="310"  class="img-fluid" style="float: left; margin-right: 20px; margin-bottom: 20px; gap: 20px;"> <img src="resNet50.gif" alt="Efficient Feature Extraction Illustration" width="340" height="310"  class="img-fluid" style="float: left; margin-right: 20px; margin-bottom: 20px; gap: 20px;"> <a href="https://ieeexplore.ieee.org/abstract/document/10541352" target="_blank" style="color: #0056b3; font-weight: bold;  font-size: 24px;text-decoration: none;"> Efficient Feature Extraction for Image Analysis through Adaptive Caching in Vector Databases </a> </p> <p> This research  introduces a caching subsystem leveraging in-memory vector databases to enhance the efficiency of image feature extraction. Using advanced models like MobileNetV3 and ResNet50, the framework integrates batch insertion and parallel processing to optimize computational performance. </p> <p style="text-align: left;"> <a href="https://ieeexplore.ieee.org/abstract/document/10541352" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 24px;">ICICT 2024</a> </p> </div></div>
+
 <div class="section">
   <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
     <img src="xyz.gif" alt="Time Series Research" width="420" height="250" style="max-width: 100%; height: auto;">
@@ -262,28 +300,47 @@ font-weight: bold;
         This research focused on using deep neural networks and hierarchical clustering to predict chaotic transitions in natural convection systems, specifically in the Lorenz system.
       </p>
       <p style="text-align: left;">
-        <a href="https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2023/87677/1196169" target="_blank" style="color: #0056b3;">IMECE 2023</a>
+        <a href="https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2023/87677/1196169" target="_blank" style="color: #0056b3; font-weight: bold; font-size: 24px;">IMECE 2023</a>
       </p>
     </div>
   </div>
 </div>
 
+<div class="section">
+  <h2>Conference & Journal Reviewing</h2>
+  <ul style="font-size: 20px; line-height: 1.8;">
+    <li>
+      Reviewer, 
+      <a href="https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3696410" target="_blank" style="color: #0056b3;">
+        ACM Web Conference 2025 (The Web Conference, formerly WWW)
+      </a> — Review Area: Search and Retrieval-Augmented AI
+    </li>
+    <li>Reviewer, IPDPS 2025 (IEEE International Parallel &amp; Distributed Processing Symposium)</li>
+    <li>Reviewer, ICDCS 2025 (IEEE International Conference on Distributed Computing Systems)</li>
+    <li>Reviewer, CIKM Conference 2024 (ACM International Conference on Information and Knowledge Management)</li>
+    <li>Reviewer, Journal of Big Data (2024–2025)</li>
+  </ul>
+</div>
 
-  <!-- Education -->
+ <!-- Education -->
 <div class="section">
   <h2>Education</h2>
   <p>
-    I received my second Master’s degree in Information Technology Infrastructure from 
-    <a href="https://www.iit.edu/" target="_blank" style="color: #0056b3; text-decoration: none;">Illinois Institute of Technology</a>, Chicago, with a 4.0 GPA. 
-    I also received my first Master’s degree in Data Science, where my thesis focused on providing a model for optimizing customer value at the contact center. 
-    Additionally, I received a Bachelor's degree in Computer Software Engineering.
+   <p>
+  I received my second Master’s degree in Information Technology Infrastructure from 
+  <a href="https://www.iit.edu/" target="_blank" style="color: #0056b3; text-decoration: none;"><strong>Illinois Institute of Technology</strong></a>, Chicago, USA, with a 4.0 GPA. 
+  I also received a Master’s degree in Data Science, where my thesis focused on providing a model for optimizing customer value at the contact center. 
+  Additionally, I completed a Bachelor's degree in Computer Software Engineering.
+</p>
+
   </p>
 </div>
 
 
+
   <!-- Footer -->
   <footer>
-    &copy; 2024 Solmaz Seyed Monir
+    &copy; 2025 Solmaz Seyed Monir
     <div class="footer-icons">
       <a href="https://scholar.google.com/citations?user=OqOv6t8AAAAJ&hl=en"><i class="fab fa-google"></i></a>
       <a href="https://github.com/solmazsm"><i class="fab fa-github"></i></a>
